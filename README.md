@@ -24,7 +24,7 @@ Each query for this project was aimed to analyze specific aspects of data analys
 ### 1. Top Paying Data Analyst jobs
 To identify top paying data analyst jobs, first I filtered my data to only show Data Analyst positiongs by averagy yearly salary. I filtered to show both on-site and remote schedule types and the location could be anywhere to get comparison from different countries.
 ```sql
-SELECT
+
     job_postings.job_id,
     job_postings.job_title,
     job_postings.job_location,
